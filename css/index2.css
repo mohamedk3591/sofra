@@ -196,6 +196,14 @@ span.fade{
     padding-top: 50px;
     padding-bottom: 200px ;
     background-color: #000;
+    background-image: url('../photo/17.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+.ov{
+    background-color: rgb(5 5 5 / 25%);
+    
   }
   .work h3{
      line-height: 100px;
@@ -214,7 +222,7 @@ span.fade{
     gap: 50px;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #000;
+    
 }
 .work .a-work div{
   position: relative;
