@@ -46,8 +46,68 @@ sro.onclick =function stop(){
 }
 
 
+let h =document.getElementById('h');
+let m =document.getElementById('m');
+let n =document.getElementById('n');
+let q =document.getElementById('q');
+let s =document.getElementById('s');
+let w =document.getElementById('w');
 
 
+h.onmouseover=function(){
+  h.classList.add("co")
+  h.classList.remove("cl")
+}
+h.onmouseleave=function(){
+  h.classList.remove("co")
+  h.classList.add("cl")
+}
+
+m.onmouseover=function(){
+  m.classList.add("co")
+  m.classList.remove("cl")
+}
+m.onmouseleave=function(){
+  m.classList.remove("co")
+  m.classList.add("cl")
+}
+
+n.onmouseover=function(){
+  n.classList.add("co")
+  n.classList.remove("cl")
+}
+n.onmouseleave=function(){
+  n.classList.remove("co")
+  n.classList.add("cl")
+}
+
+q.onmouseover=function(){
+  q.classList.add("co")
+  q.classList.remove("cl")
+}
+q.onmouseleave=function(){
+  q.classList.remove("co")
+  q.classList.add("cl")
+  
+}
+
+s.onmouseover=function(){
+  s.classList.add("co")
+  s.classList.remove("cl")
+}
+s.onmouseleave=function(){
+  s.classList.remove("co")
+  s.classList.add("cl")
+}
+
+w.onmouseover=function(){
+  w.classList.add("co")
+  w.classList.remove("cl")
+}
+w.onmouseleave=function(){
+  w.classList.remove("co")
+  w.classList.add("cl")
+}
 
 
 
